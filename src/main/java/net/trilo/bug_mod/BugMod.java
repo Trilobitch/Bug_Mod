@@ -2,6 +2,7 @@ package net.trilo.bug_mod;
 
 import net.trilo.bug_mod.block.ModBlocks;
 import net.trilo.bug_mod.fluid.ModFluids;
+import net.trilo.bug_mod.item.ModCreativeModeTabs;
 import net.trilo.bug_mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -42,7 +43,7 @@ public class BugMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModFluids.register(modEventBus);
-
+        ModCreativeModeTabs.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in.

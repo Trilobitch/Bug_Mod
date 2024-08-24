@@ -24,6 +24,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //register some beautiful, breathtaking moditemmodels right here,,,
 
+        basicItem(ModItems.BUG_BOOK.get());
+
     }
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {
         return withExistingParent(item.getId().getPath(),
